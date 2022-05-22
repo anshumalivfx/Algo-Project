@@ -1,4 +1,6 @@
-# Algo Project ## Group Members:-
+# Algo Project 
+
+## Group Members:-
 - Geetali Agarwal 
 - Shashwat Dash
 - Kratika Garg 
