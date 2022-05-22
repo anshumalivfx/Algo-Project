@@ -84,6 +84,12 @@ build CMakeFiles/Ago_Project.dir/TicTacToe.cpp.o: CXX_COMPILER__Ago_Project_Debu
   OBJECT_DIR = CMakeFiles/Ago_Project.dir
   OBJECT_FILE_DIR = CMakeFiles/Ago_Project.dir
 
+build CMakeFiles/Ago_Project.dir/CodeDriver.cpp.o: CXX_COMPILER__Ago_Project_Debug /Users/anshumalikarna/CLionProjects/Ago-Project/CodeDriver.cpp || cmake_object_order_depends_target_Ago_Project
+  DEP_FILE = CMakeFiles/Ago_Project.dir/CodeDriver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Ago_Project.dir
+  OBJECT_FILE_DIR = CMakeFiles/Ago_Project.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ago_Project
@@ -92,7 +98,7 @@ build CMakeFiles/Ago_Project.dir/TicTacToe.cpp.o: CXX_COMPILER__Ago_Project_Debu
 #############################################
 # Link the executable Ago_Project
 
-build Ago_Project: CXX_EXECUTABLE_LINKER__Ago_Project_Debug CMakeFiles/Ago_Project.dir/main.cpp.o CMakeFiles/Ago_Project.dir/TicTacToe.cpp.o
+build Ago_Project: CXX_EXECUTABLE_LINKER__Ago_Project_Debug CMakeFiles/Ago_Project.dir/main.cpp.o CMakeFiles/Ago_Project.dir/TicTacToe.cpp.o CMakeFiles/Ago_Project.dir/CodeDriver.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Ago_Project.dir
   POST_BUILD = :
