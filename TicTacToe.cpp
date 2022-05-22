@@ -2,7 +2,7 @@
 // Created by Anshumali Karna on 22/05/22.
 //
 
-#include "TicTacToe.h"
+#import "TicTacToe.h"
 
 void showBoard(char board[][SIDE])
 {
