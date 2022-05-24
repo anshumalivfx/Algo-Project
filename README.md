@@ -7,7 +7,7 @@
 - Anshumali Karna
 
 ## How to Compile
-```bash 
+```zsh
 mkdir build && cd build
 cmake ..
 make

@@ -12,6 +12,7 @@
 
 #define COMPUTERMOVE 'O'
 #define HUMANMOVE 'X'
+using namespace std;
 
 void showBoard(char board[][SIDE]);
 void showInstructions();
@@ -24,7 +25,6 @@ bool gameOver(char board[][SIDE]);
 int minimax(char board[][SIDE], int depth, bool isAI);
 int bestMove(char board[][SIDE], int moveIndex);
 void playTicTacToe(int whoseTurn);
-
 
 
 #endif //AGO_PROJECT_TICTACTOE_H
